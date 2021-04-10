@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    background-color:cadetblue;
+    flex: 1;
+    height: 100px;
+    width: 100px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}

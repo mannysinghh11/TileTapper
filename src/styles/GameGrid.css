@@ -1,0 +1,49 @@
+.gridContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+
+.blackTile{
+    display: flex;
+    background-color: black;
+    flex: 1;
+    height: 100px;
+    width: 100px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.normalTile{
+    display: flex;
+    background-color:cadetblue;
+    flex: 1;
+    height: 100px;
+    width: 100px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.resetButton{
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    opacity: 0.7;
+}
+
+.resetButton:hover{
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+    opacity: 1;
+    cursor: pointer;
+}
